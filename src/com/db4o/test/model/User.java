@@ -9,7 +9,7 @@ import com.db4o.R;
  * Time: 13:56
  * To change this template use File | Settings | File Templates.
  */
-public class User {
-    public String FirstName;
-    public String Surname;
+public class User extends Entity{
+    public String firstName;
+    public String surname;
 }
