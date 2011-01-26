@@ -3,12 +3,12 @@ package com.db4o.test;
 
 import com.db4o.test.model.User;
 import com.db4o.test.repositories.UserRepository;
-import junit.framework.TestCase;
+
 import org.junit.*;
 
 import java.util.List;
 
-public class TestRepository extends TestCase {
+public class TestRepository {
 
     @Test
     public void can_insert_user(){
